@@ -1,0 +1,115 @@
+.projects {
+    background-color: black;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.my-projects {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.my-projects h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.projects .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.project {
+    flex: 1 1 20%; /* Adjusted for a better initial mobile view */
+    max-width: 20%; /* Adjusted for a better initial mobile view */
+    background-color: rgb(255, 255, 255, 0);
+    border: 1px solid rgb(255, 255, 255, 0);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.project:hover {
+    transform: scale(1.05);
+}
+
+.project img {
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.project h3 {
+    font-size: 1.2rem;
+    margin: 5px 0;
+    color: white;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255, 0);
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.project a:hover {
+    background-color: #bd04a7;
+    color: #fff;
+}
+
+/* Responsive Styles for Smartphones */
+@media (max-width: 768px) {
+    .project {
+        flex: 1 1 45%; /* Two columns on smaller screens */
+        max-width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .project img {
+        width: 100px;
+        height: 80px;
+    }
+
+    .project h3 {
+        font-size: 1rem;
+    }
+
+    .project a {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .project {
+        flex: 1 1 100%; /* Single column on extra small screens */
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .project img {
+        width: 80px;
+        height: 60px;
+    }
+
+    .project h3 {
+        font-size: 0.9rem;
+    }
+
+    .project a {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+}

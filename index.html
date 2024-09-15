@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-5BB8W2X');</script>
+  <!-- End Google Tag Manager -->
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>My Personal Portfolio</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/skills.css" rel="stylesheet">
+  <link href="assets/css/projects.css" rel="stylesheet">
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169007209-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-169007209-3');
+  </script>
+
+
+
+  <!-- =======================================================
+  * Template Name: Personal - v2.1.0
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+    
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <!-- ======= Header ======= -->
+  <header id="header" class="header-tops">
+
+    <div class="container">
+
+      <h1><a href="index.html">Soham Maity</a></h1>
+
+      <h2 style="color:black">I'm <span class="Typing" style="color: #bd04a7"></span></h2>
+      
+      <script>
+        // Define the content to be typed
+        const textToType = ["a Coder", "a Software Developer", "an AIML Enthusiast", "a Designer"];
+        let index = 0;
+        let charIndex = 0;
+        let currentText = "";
+        const typingElement = document.querySelector(".Typing");
+    
+        function type() {
+            // Check if the end of the text array is reached
+            if (charIndex < textToType[index].length) {
+                currentText += textToType[index].charAt(charIndex);
+                typingElement.textContent = currentText;
+                charIndex++;
+                setTimeout(type, 150); // Adjust typing speed here
+            } else {
+                // Move to the next text or reset
+                setTimeout(() => {
+                    charIndex = 0;
+                    currentText = "";
+                    index = (index + 1) % textToType.length; // Loop back to the first text
+                    type();
+                }, 1000); // Adjust delay between texts here
+            }
+        }
+    
+        // Start the typing effect
+        type();
+      </script>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#header"> <span>Home</span></a></li>
+          <li><a href="#about"><span>About</span></a></li>
+          <li><a href="#education"> <span>Education</span></a></li>
+          <li><a href="#skills"> <span>Skills</span></a></li>
+          <li><a href="#projects"> <span>Projects</span></a></li>
+          <li><a href="assets/Resume.pdf"> <span>Resume</span></a></li>
+          <li><a href="#contacts"> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+      
+      <div>
+        <div class="col-lg-4" data-aos="fade-right">
+          <br>
+          <img src="assets/img/Profile_home.jpg" class="img-fluid custom-image" alt="">
+        </div>
+      </div>
+
+      <div class="social-links">
+          <a href="https://www.linkedin.com/in/soham-maity-83653023a/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/SM-Codaholic98" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+          <a href="mailto:sohammaity.codaholic81@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
+          <a href="https://www.instagram.com/sm_codaholic098?igsh=MXdnaWZ6YjEzd25pYQ==" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.facebook.com/soham.maity.501?mibextid=ZbWKwL" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+      </div>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+      <div class="section-title">
+        <h2>About Me</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="assets/img/profile.jpeg" class="img-fluid custom-image" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <p>Currently, I am a B.Tech Computer Science Engineering student in my
+            third year, fifth semester at Adamas University.<br><br>
+
+            I am passionate about technology and driven by the desire to
+            continuously expand my skills. I am an advanced-level Python developer
+            with a keen interest in Artificial Intelligence and Machine Learning
+            (AIML). Currently, I am fully focused on EDA and machine learning codes
+            using Python, which I am vigorously practicing to update my domain
+            knowledge in AIML. Additionally, day by day growing my competitive
+            coding and problem-solving skills. I am also simultaneously doing and
+            completing various types of projects related to different domains with 
+            their respective technologies to broaden my technical horizons.<br><br>
+
+            Name : Soham Maity<br>
+            Date Of Birth : 13-11-2004<br>
+            Address : Adamas University, AKC Campus, Barasat-Barrackpore Road,
+            Barasat, North 24 Parganas, West Bengal, India.<br>
+            Zip Code : 700126<br>
+            Email : sohammaity.codaholic81@gmail.com<br>
+            Phone : +91 9749415995<br>
+            
+          </p>
+        </div>
+      </div>
+
+    </div><!-- End About Me -->
+  </section><!-- End About Section -->
+
+
+
+  <!-- ======= Education Section ======= -->
+  <section id="education" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Education</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-12" data-aos="fade-up" style="display: inline-block;">
+            <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px; padding-bottom: 5px; display: inline-block; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); border-radius: 8px">
+              <img src="assets/img/education/Adamas University Logo.jpg" class="img-fluid" alt="">
+              <p style="text-align:left;padding: 5px 10px;"><em>B.Tech in Computer Science Engineering with specialization AIML</em></p>
+              <h5 style="text-align:left;padding: 0px 10px;">July 2022 - Present</h5>
+              <h6 style="text-align:left;padding: 0px 10px;">Current SGPA - 9.30</h6>
+              <h6 style="text-align:left;color:black;padding: 0px 10px;">Relevant Coursework</h6>
+              <ul style="text-align:left;">
+                <li>Exploratory Data Analysis</li>
+                <li>Domain Specific Predictive Analysis</li>
+                <li>DSA</li>
+                <li>DBMS</li>
+                <li>Full Stack Web Devlopment</li>
+                <li>Computer Networks</li>
+                <li>Formal Language and Automata</li>
+                <li>Computer Architecture</li>
+                <li>Operating System</li>
+              </ul>
+            </div>
+
+            <div class="col-md-4 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100" style="padding:0px 0px; padding-bottom: 5px; display: inline-block; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); border-radius: 8px;">
+              <img src="assets/img/education/DAV Logo.jpeg" class="img-fluid" alt="">
+              <p style="text-align:left;padding: 5px 10px;"><em>Schooling - 10th +2</em></p>
+              <h5 style="text-align:left;padding: 0px 10px;">April 2008 - June 2022</h5>
+              <h6 style="text-align:left;color:black;padding: 0px 10px;">Grades :-</h6>
+              <ul style="text-align:left;">
+                <li>AISSCE(12th board exam) - 85.40%</li>
+                <li>AISSE(10th board exam) - 89%</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Education Section -->
+
+
+
+  <!-- Start Skills Section -->
+  <section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <div class="container">
+        <div class="skills-grid">
+            <div class="skill-item">
+                <img src="assets/img/skills/Python_Programming.png" alt="Python" class="skill-img">
+                <h4>Python Programming</h4>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 95%;">95%</div>
+                </div>
+            </div>
+            
+            <div class="skill-item">
+                <img src="assets/img/skills/EDA.png" alt="EDA" class="skill-img">
+                <h4>Exploratory Data Analysis</h4>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 85%;">85%</div>
+                </div>
+            </div>
+            
+            <div class="skill-item">
+                <img src="assets/img/skills/ML.png" alt="ML" class="skill-img">
+                <h4>Machine Learning</h4>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 85%;">85%</div>
+                </div>
+            </div>
+            
+            <div class="skill-item">
+                <img src="assets/img/skills/Competitive_Coding.png" alt="Competitive Coding" class="skill-img">
+                <h4>Competitive Coding</h4>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%;">90%</div>
+                </div>
+            </div>
+            
+            <div class="skill-item">
+                <img src="assets/img/skills/HTML_CSS.png" alt="HTML/CSS" class="skill-img">
+                <h4>HTML/CSS</h4>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%;">80%</div>
+                </div>
+            </div>
+            
+            <div class="skill-item">
+              <img src="assets/img/skills/JS.png" alt="JS" class="skill-img">
+              <h4>JavaScript</h4>
+              <div class="progress">
+                  <div class="progress-bar" style="width: 45%;">45%</div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <img src="assets/img/skills/Flask.png" alt="Flask" class="skill-img">
+              <h4>Flask</h4>
+              <div class="progress">
+                  <div class="progress-bar" style="width: 60%;">60%</div>
+              </div>
+            </div> 
+            
+            <div class="skill-item">
+              <img src="assets/img/skills/MySQL.png" alt="MySQL" class="skill-img">
+              <h4>MySQL</h4>
+              <div class="progress">
+                  <div class="progress-bar" style="width: 75%;">75%</div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <img src="assets/img/skills/Java_Programming.png" alt="Java_Programming" class="skill-img">
+              <h4>Java_Programming</h4>
+              <div class="progress">
+                  <div class="progress-bar" style="width: 75%;">75%</div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <img src="assets/img/skills/C_CPP_Programming.png" alt="C_CPP_Programming" class="skill-img">
+              <h4>C/C++_Programming</h4>
+              <div class="progress">
+                  <div class="progress-bar" style="width: 70%;">70%</div>
+              </div>
+            </div>
+        </div>
+    </div>
+  </section> 
+
+  <!-- End Skills Section -->
+
+
+
+  <!-- Start Project Section -->
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="my-projects">
+        <!-- 1st Row -->
+        <div class="row">
+            <div class="project">
+                <a href="https://github.com/SM-Codaholic98/Crop_Recommendation_System.git" target="_blank">
+                    <img src="assets/img/project/Crop_Recommendation_System.jpg" alt="Crop_Recommendation_System">
+                </a>
+                <h3>Crop Recommendation System</h3>
+            </div>
+
+            <div class="project">
+                <a href="https://github.com/SM-Codaholic98/PlantGrowth-Predictor.git" target="_blank">
+                    <img src="assets/img/project/Plant Growth Predictor.webp" alt="Plant Growth Predictor">
+                </a>
+                <h3>Plant Growth Predictor</h3>
+            </div>
+
+            <div class="project">
+                <a href="https://github.com/SM-Codaholic98/Diabetes_Predictor-v1.0.git" target="_blank">
+                    <img src="assets/img/project/Diabetes Predictor.png" alt="Diabetes Predictor">
+                </a>
+                <h3>Diabetes Predictor</h3>
+            </div>
+
+            <div class="project">
+                <a href="https://github.com/SM-Codaholic98/HousePrice_Predictor-v1.0.git" target="_blank">
+                    <img src="assets/img/project/House Price Predictor.jpeg" alt="House Price Predictor">
+                </a>
+                <h3>House Price Predictor</h3>
+            </div>
+
+            <div class="project">
+              <a href="https://github.com/SM-Codaholic98/RANDOM-PASSWORD-GENERATOR.git" target="_blank">
+                  <img src="assets/img/project/Random Password Generator.jpg" alt="Random Password Generator">
+              </a>
+              <h3>Random Password Generator</h3>
+            </div>
+
+            <div class="project">
+              <a href="https://github.com/SM-Codaholic98/College-Student-Registration-System.git" target="_blank">
+                  <img src="assets/img/project/College Student Registration System.jpg" alt="College Student Registration System">
+              </a>
+              <h3>College Student Registration System</h3>
+            </div>
+
+            <div class="project">
+              <a href="https://github.com/SM-Codaholic98/Flight-Price-Predictor.git" target="_blank">
+                  <img src="assets/img/project/Flight Price Predictor.webp" alt="Flight Price Predictor">
+              </a>
+              <h3>Flight Price Predictor</h3>
+            </div>
+        </div>
+
+        <!-- 2nd Row -->
+        <div class="row">
+            <div class="project">
+                <a href="https://github.com/SM-Codaholic98/LaptopPrice_Predictor-v1.0.git" target="_blank">
+                    <img src="assets/img/project/Laptop Price Predictor.jpg" alt="Laptop Price Predictor">
+                </a>
+                <h3>Laptop Price Predictor</h3>
+            </div>
+
+            <div class="project">
+                <a href="https://github.com/SM-Codaholic98/Real-Time-Speech-Translation-Assistant.git" target="_blank">
+                    <img src="assets/img/project/Real-Time Speech Translation Assistant.jpg" alt="Real-Time Speech Translation Assistant">
+                </a>
+                <h3>Real-Time Speech Translation Assistant</h3>
+            </div>
+
+            <div class="project">
+                <a href="https://github.com/SM-Codaholic98/MarketMingle.git" target="_blank">
+                    <img src="assets/img/project/MarketMingle.jpg" alt="MarketMingle">
+                </a>
+                <h3>MarketMingle</h3>
+            </div>
+
+            <div class="project">
+              <a href="https://github.com/SM-Codaholic98/PLOTTER-v1.0.git" target="_blank">
+                  <img src="assets/img/project/Plotter.jpg" alt="Plotter">
+              </a>
+              <h3>Plotter</h3>
+            </div>
+
+            <div class="project">
+              <a href="https://github.com/SM-Codaholic98/Scientific-Calculator.git" target="_blank">
+                  <img src="assets/img/project/Scientific Calculator.jpg" alt="Scientific Calculator">
+              </a>
+              <h3>Scientific Calculator</h3>
+            </div>
+
+            <div class="project">
+              <a href="https://github.com/SM-Codaholic98/Hotel-Management-System.git" target="_blank">
+                  <img src="assets/img/project/Hotel Management System.jpg" alt="Hotel Management System">
+              </a>
+              <h3>Hotel Management System</h3>
+            </div>
+
+            <div class="project">
+              <a href="https://github.com/SM-Codaholic98/TicTacToe.git" target="_blank">
+                  <img src="assets/img/project/TicTacToe Game.jpg" alt="TicTacToe Game">
+              </a>
+              <h3>TicTacToe Game</h3>
+            </div>        
+        </div>
+
+        <!-- 3rd Row -->
+        <div class="row">
+          <div class="project">
+              <a href="https://github.com/SM-Codaholic98/Voice-Assistant.git" target="_blank">
+                  <img src="assets/img/project/Voice Assistant.jpg" alt="Voice Assistant">
+              </a>
+              <h3>Voice Assistant</h3>
+          </div>
+
+          <div class="project">
+              <a href="https://github.com/SM-Codaholic98/PyGame.git" target="_blank">
+                  <img src="assets/img/project/Shooting Game.jpg" alt="Shooting Game">
+              </a>
+              <h3>Shooting Game</h3>
+          </div>
+
+          <div class="project">
+              <a href="https://github.com/SM-Codaholic98/School-Management-System.git" target="_blank">
+                  <img src="assets/img/project/School Management System.jpg" alt="School Management System">
+              </a>
+              <h3>School Management System</h3>
+          </div>
+
+          <div class="project">
+            <a href="https://github.com/SM-Codaholic98/QUIZ-Game.git" target="_blank">
+                <img src="assets/img/project/Quiz Game.jpg" alt="Quiz Game">
+            </a>
+            <h3>Quiz Game</h3>
+          </div>
+
+          <div class="project">
+            <a href="https://github.com/SM-Codaholic98/ATM-Machine.git" target="_blank">
+                <img src="assets/img/project/ATM Machine.jpg" alt="ATM Machine">
+            </a>
+            <h3>ATM Machine</h3>
+          </div>
+
+          <div class="project">
+            <a href="https://github.com/your-github/project3" target="_blank">
+                <img src="images/project3.jpg" alt="Project 3">
+            </a>
+            <h3>Project Name 3</h3>
+          </div>
+
+          <div class="project">
+            <a href="https://github.com/your-github/project3" target="_blank">
+                <img src="images/project3.jpg" alt="Project 3">
+            </a>
+            <h3>Project Name 3</h3>
+          </div>        
+      </div>
+    </div>
+  </section>
+
+  <!-- End Project Section -->
+
+
+
+  <!-- Start Links section -->
+  <section id="links" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Resume & Links</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <a href="https://drive.google.com/file/d/1iHBNV2UkH5LkhAP-1hYRZ2Ez_BQ6g4S7/view?usp=sharing" target="_blank"><div class="icon"><i class="icofont-page"></i></div></a>
+          <h4 class="title"><a href="https://drive.google.com/file/d/1iHBNV2UkH5LkhAP-1hYRZ2Ez_BQ6g4S7/view?usp=sharing" target="_blank">Resume</a></h4>
+          <p class="description" style="color:#fff;">The link contains downloadable resume</p>
+        </div>
+        <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up">
+          <a href="https://github.com/rajaprerak/LeetCode_Problems" target="_blank"><div class="icon"><i class="icofont-link"></i></div></a>
+          <h4 class="title"><a href="https://github.com/rajaprerak/LeetCode_Problems" target="_blank">LeetCode Repository</a></h4>
+          <p class="description" style="color:#fff;"> The github repository contains leetcode problems solution in python.</p>
+        </div>
+        <!-- <div class="col-md-3 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <a href="https://techingenious.herokuapp.com/" target="_blank"><div class="icon"><i class="icofont-page"></i></div></a>
+          <h4 class="title"><a href="https://techingenious.herokuapp.com/" target="_blank">Blog</a></h4>
+          <p class="description" style="color:#fff;">Blog containing articles on AI, coding, development</p>
+        </div> -->
+      </div>
+    </div>
+  </section> <!--End Links Section -->
+
+
+  <!-- Start Contact Section -->
+
+  <section id="contacts" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Contact</h2>
+      </div>
+
+      <div class="row mt-2">
+
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-map"></i>
+            <h3>My Address</h3>
+            <p>Adamas University, AKC Campus,<br>
+              Barasat-Barrackpore Road,<br>
+              Barasat, North 24 Parganas,<br>
+              West Bengal, India.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3>Social Profiles</h3>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/soham-maity-83653023a/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://github.com/SM-Codaholic98" target="_blank" class="github"><i class="bx bxl-github"></i></a>
+              <a href="mailto:sohammaity.codaholic81@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
+              <a href="https://www.instagram.com/sm_codaholic098?igsh=MXdnaWZ6YjEzd25pYQ==" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.facebook.com/soham.maity.501?mibextid=ZbWKwL" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Gmail</h3>
+            <p>sohammaity.codaholic81@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-phone-call"></i>
+            <h3>Phone</h3>
+            <p>+91 9749415995</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End Contact Section -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script type="text/javascript">
+    var typed = new Typed('.typing',{
+      strings: ["Coder", "Developer", "AI Enthusiast"],
+      loop: true,
+      typeSpeed: 65,
+      backSpeed: 65
+    });
+  </script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
